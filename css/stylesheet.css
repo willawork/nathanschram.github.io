@@ -36,7 +36,7 @@ header h1 {
 
 @media only screen and (min-width: 768px) {
   header h1 {
-    font-size: 6.5em;
+    font-size: 4em;
     margin-bottom: 0px;
     line-height: 90px
   }
@@ -44,7 +44,7 @@ header h1 {
 
 @media only screen and (min-width: 1440px) {
   header h1 {
-    font-size: 6.5em;
+    font-size: 4em;
     margin-bottom: 0px;
     letter-spacing: -5px;
   }
@@ -94,5 +94,15 @@ header h2 {
   padding: 20px;
 }
 .flex-video {
-  margin-bottom: 10px
+  margin-bottom: 10px;
+}
+.mailchimp {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 20em;
 }
