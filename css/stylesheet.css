@@ -1,7 +1,7 @@
 body {
   font-size: 1.2em;
   line-height: 1.5; 
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Helvetica', Helvetica, Arial, serif;
   color: #000;
   background-color: rgb(123,219,70);
 }
@@ -25,7 +25,7 @@ header {
 
 
 header h1 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Helvetica', Helvetica, Arial, serif; 
   letter-spacing: -0.04em;
   font-size: 4em;
   color: #FFF;
@@ -54,15 +54,16 @@ header h2 {
   letter-spacing: -1px;
   font-size: 1.5em;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 1.3;
 }
 
 .fold {
-  margin-top: 25px;
+  margin-top: 0px;
   background-color: #fff;
   color: #000;
   width: 100%;
+  border-top: 1px;
 }
 
 .button {
@@ -86,15 +87,17 @@ header h2 {
 }
 .csheader {
   display: table;
-  margin: 0 auto;
+  height: auto;
   padding: 20px 0 20px 0;
   text-align: center;
+  margin: 0 auto;
+  max-width: 62.5rem
 }
 .social {
   padding: 20px;
 }
 .flex-video {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .mailchimp {
   padding-bottom: 10px;
@@ -104,5 +107,19 @@ header h2 {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 20em;
+}
+.row {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+max-width: 62.5rem;
+}
+#banner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.large-4{
+  vertical-align: middle;
 }

@@ -1061,7 +1061,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", "Helvetica", Helvetica, Arial, sans-serif
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -1078,10 +1078,13 @@ h1 {
   font-size: 2.125em; }
 
 h2 {
-  font-size: 1.6875em; }
+  font-size: 1.6875em;
+  }
 
 h3 {
-  font-size: 1.375em; }
+  font-size: 1.375em;
+  font-weight: lighter;
+   }
 
 h4 {
   font-size: 1.125em;
@@ -1091,7 +1094,7 @@ h4 {
 h5 {
   font-size: 1.6875em;
   color: rgb(123,219,70);
-  text-align: center;
+  text-align: left;
   }
 
 h6 {
