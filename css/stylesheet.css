@@ -78,7 +78,6 @@ header h2 {
 .displayed {
   display: inline-block;
   margin: 6px 6px;
-  }
 }
 .footer {
   padding: 20px;
@@ -122,4 +121,16 @@ max-width: 62.5rem;
 }
 .large-4{
   vertical-align: middle;
+}
+
+#main-banner {
+  padding-top: 300px;
+  background-image: url('../img/hand-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner-text {
+  padding-top: 100px;
+  text-shadow: 2px 2px #000;
 }
