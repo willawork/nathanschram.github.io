@@ -1,7 +1,7 @@
 body {
   font-size: 1.2em;
   line-height: 1.5; 
-  font-family: 'Helvetica', Helvetica, Arial, serif;
+  font-family: 'Open Sans', 'Helvetica', Helvetica, Arial, serif;
   color: #000;
   background-color: rgb(123,219,70);
 }
@@ -44,7 +44,7 @@ header h1 {
 
 @media only screen and (min-width: 1440px) {
   header h1 {
-    font-size: 4em;
+    font-size: 3.6em;
     margin-bottom: 0px;
     letter-spacing: -5px;
   }
@@ -78,7 +78,6 @@ header h2 {
 .displayed {
   display: inline-block;
   margin: 6px 6px;
-  }
 }
 .footer {
   padding: 20px;
@@ -122,4 +121,41 @@ max-width: 62.5rem;
 }
 .large-4{
   vertical-align: middle;
+}
+
+#main-banner {
+  padding-top: 250px;
+  background-image: url('../img/hand-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-shadow: 2px 2px #000;
+}
+
+.green-background, h4 {
+  color: #FFF;
+}
+
+#introduction {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#setup-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#top-banner {
+  height: 100px;
+  background-color: #FFF;
+}
+
+#top-banner img, p {
+  padding-top: 30px;
+  height: 60px;
 }
