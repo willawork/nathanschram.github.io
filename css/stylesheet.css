@@ -6,10 +6,6 @@ body {
   background-color: rgb(123,219,70);
 }
 
-html {
-  background-color: #fff;
-}
-
 a {
   color: rgb(6,136,204);
   text-decoration: underline;
@@ -124,19 +120,18 @@ max-width: 62.5rem;
 }
 
 #main-banner {
-  padding-top: 250px;
+  padding-top: 150px;
   background-image: url('../img/hand-banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #banner-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
   text-shadow: 2px 2px #000;
 }
 
-.green-background, h4 {
+.green-background, h3 {
+
   color: #FFF;
 }
 
@@ -158,4 +153,51 @@ max-width: 62.5rem;
 #top-banner img, p {
   padding-top: 30px;
   height: 60px;
+}
+
+.how-it-works {
+  padding-top: 100px;
+}
+
+.how-it-works h2 {
+  padding-bottom: 50px;
+}
+
+body  {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
