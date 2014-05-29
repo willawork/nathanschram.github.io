@@ -94,16 +94,7 @@ header h2 {
 .flex-video {
   margin-bottom: 30px;
 }
-.mailchimp {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.row {
+.row {  
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -200,4 +191,3 @@ body  {
     to {
         opacity: 1;
     }
-}
